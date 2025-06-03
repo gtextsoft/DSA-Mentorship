@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4">
-              Inner <span className="premium-gradient-text">Circle</span> Mentorship
+              Stephen <span className="premium-gradient-text">Akintayo</span> Foundation
             </h3>
             <p className="text-gray-300 mb-4">
               Transform your success into generational impact through personalized mentorship with Dr. Stephen Akintayo.
@@ -62,15 +62,15 @@ const Footer = () => {
             <p className="text-gray-300 mb-2">Gtext Global Headquarters</p>
             <p className="text-gray-300 mb-6">Lagos, Nigeria</p>
             <p className="text-gray-300">
-              <a href="mailto:info@innercirclementorship.com" className="hover:text-gold-400 transition-colors">
-                info@innercirclementorship.com
+              <a href="mailto:info@stephenakintayofoundation.org" className="hover:text-gold-400 transition-colors">
+                info@stephenakintayofoundation.org
               </a>
             </p>
           </div>
         </div>
         
         <div className="border-t border-white/10 mt-10 pt-6 text-center text-gray-400 text-sm">
-          <p>&copy; {currentYear} Inner Circle Mentorship. All rights reserved.</p>
+          <p>&copy; {currentYear} Stephen Akintayo Foundation. All rights reserved.</p>
         </div>
       </div>
     </footer>

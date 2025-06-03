@@ -5,7 +5,6 @@ import AnimatedSection from "@/components/AnimatedSection";
 import FeatureCard from "@/components/FeatureCard";
 import TestimonialCard from "@/components/TestimonialCard";
 import FAQ from "@/components/FAQ";
-import RegisterForm from "@/components/RegisterForm";
 import { 
   Users, 
   Trophy, 
@@ -459,7 +458,7 @@ const Index = () => {
           <AnimatedSection delay={300} className="max-w-4xl mx-auto bg-premium-900 border border-gold-500/20 rounded-xl p-8 md:p-12 shadow-xl">
             <div className="text-center mb-8">
               <p className="text-xl text-gray-300">The commitment fee is</p>
-              <h3 className="text-5xl md:text-6xl font-bold premium-gradient-text my-4">₦40,000,000</h3>
+              <h3 className="text-5xl md:text-6xl font-bold premium-gradient-text my-4">$25k</h3>
               <p className="text-lg text-gray-300">
                 This is your fast pass to seats money alone can't buy
               </p>
@@ -504,7 +503,7 @@ const Index = () => {
           
           <AnimatedSection delay={500} className="mt-16 max-w-4xl mx-auto">
             <div className="bg-premium-900/60 border border-white/10 rounded-xl p-8">
-              <h3 className="text-2xl font-bold mb-6 text-center">Here's What ₦40,000,000 Would Typically Get You:</h3>
+              <h3 className="text-2xl font-bold mb-6 text-center">Here's What $25k Would Typically Get You:</h3>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                 <div className="text-center p-5 bg-premium-800/50 rounded-lg">
@@ -659,10 +658,6 @@ const Index = () => {
                 You're not alone in this.
               </p>
             </div>
-          </AnimatedSection>
-          
-          <AnimatedSection delay={300} className="max-w-lg mx-auto">
-            <RegisterForm />
           </AnimatedSection>
         </div>
       </section>

@@ -32,9 +32,7 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
         <div className="flex items-center">
-          <h1 className="text-2xl font-display font-bold text-white">
-            Inner <span className="premium-gradient-text">Circle</span>
-          </h1>
+          <img src="/logo.png" alt="DSALogo" className="w-50 h-20" />
         </div>
 
         {/* Desktop Navigation */}

@@ -17,8 +17,8 @@ const faqItems = [
     answer: "Unlike typical courses or group coaching, this is a personalized 1-on-1 mentorship where Dr. Akintayo works directly with you. You'll receive custom strategies based on your specific business and goals, plus access to his influential network, which is unavailable through standard programs.",
   },
   {
-    question: "What's the return on this ₦40,000,000 investment?",
-    answer: "Beyond the monetary gains, you're investing in 17+ years of hard-won knowledge, international access, billion-naira insights, and battle-tested business frameworks that can literally change the trajectory of your life. Previous mentees have seen growth from ₦10M to ₦1B annual revenue through applying these strategies.",
+    question: "What's the return on this $25k investment?",
+    answer: "Beyond the monetary gains, you're investing in 17+ years of hard-won knowledge, international access, billion-naira insights, and battle-tested business frameworks that can literally change the trajectory of your life. Previous mentees have seen growth from $10k to $1B annual revenue through applying these strategies.",
   },
   {
     question: "How much time will I need to commit?",
@@ -76,12 +76,14 @@ const FAQ = () => {
         
         <AnimatedSection delay={400} className="mt-12 text-center">
           <p className="text-gray-300 mb-6">Still have questions about the mentorship program?</p>
-          <button 
-            className="premium-button" 
-            onClick={() => document.getElementById('register')?.scrollIntoView({ behavior: 'smooth' })}
+          <a 
+            href="https://app.mailingboss.com/lists/683eba837bc34/subscribe" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="premium-button"
           >
             Apply Now and Learn More
-          </button>
+          </a>
         </AnimatedSection>
       </div>
     </section>
